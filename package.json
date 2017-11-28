@@ -1,0 +1,10 @@
+{
+  "name": "eslint-config-vehikl",
+  "version": "0.0.1",
+  "description": "Vehikl code linting rules",
+  "main": "index.js",
+  "repository": "https://github.com/vehikl/eslint-config-vehikl.git",
+  "author": "Vehikl.com",
+  "license": "MIT",
+  "private": false
+}
