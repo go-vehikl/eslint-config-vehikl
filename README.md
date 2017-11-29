@@ -21,6 +21,14 @@ In your .eslintrc file, add the following to the root:
 ```json
 {
   ...
-  "extends": ["eslint:recommended", "vehikl/recommended"]
+  "extends": ["eslint:recommended", "vehikl/recommended", "vehikl/html"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true
+  },
+  ...
 }
 ```
