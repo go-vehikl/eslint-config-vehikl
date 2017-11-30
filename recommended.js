@@ -24,10 +24,6 @@ module.exports = {
     rules[rule.rule] = rule.options
     return rules
   })
-  //   "consistent-return": "warning", // If one branch of a function returns a value, all other branches should also return a value
-  //   "curly": ["error", "multi", "consistent"], // Avoid curlies for single-line blocks, but in a chain, if one block needs curlies, force all other blocks in the chain to use curlies
-  //   "no-caller": "error", // Don't use arguments.caller or arguments.calless
-  //   "no-else-return": "warning", // If you have an if and else, and the if has an explicit return statement, you can avoid using an else condition
   //   "no-extra-bind": "warning", // Don't bind if the function isn't using `this`
   //   "no-implicit-globals": "warning", // Don't put stuff in globals
   //   "no-invalid-this": "warning", // Don't use this if you're not in code being ran from a class-like object
