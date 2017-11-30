@@ -8,12 +8,12 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "mocha --opts tests/mocha.opts"
+    "test": "node ./tests/index.js"
   },
   "peerDependencies": {
     "eslint": ">= 3"
   },
   "devDependencies": {
-    "mocha": "^4.0.1"
+    "eslint": "^4.12.0"
   }
 }
