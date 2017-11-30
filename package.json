@@ -8,12 +8,14 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "node ./tests/index.js"
+    "test": "node ./tests/index.js",
+    "prepush": "yarn test"
   },
   "peerDependencies": {
     "eslint": ">= 3"
   },
   "devDependencies": {
-    "eslint": "^4.12.0"
+    "eslint": "^4.12.0",
+    "husky": "^0.14.3"
   }
 }
