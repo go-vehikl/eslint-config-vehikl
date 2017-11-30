@@ -10,6 +10,7 @@ function testRule(tester, configName, rule) {
     console.log("ok")
     return []
   } catch(e) {
+    process.exitCode = 1
     console.log("err")
     return [{ rule: rule, error: e }]
   }
