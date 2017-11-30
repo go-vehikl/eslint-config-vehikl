@@ -9,7 +9,8 @@
   "private": false,
   "scripts": {
     "test": "node ./tests/index.js",
-    "prepush": "yarn test"
+    "prepush": "yarn test && yarn lint",
+    "lint": "eslint --no-eslintrc --env es6 -c 'eslint:recommended' -c ./recommended.js rules/"
   },
   "peerDependencies": {
     "eslint": ">= 3"
