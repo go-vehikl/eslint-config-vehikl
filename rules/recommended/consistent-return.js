@@ -4,7 +4,7 @@ const name = "consistent-return"
 module.exports = {
   definition: require(path.join("eslint", "lib", "rules", name + ".js")),
   name: name,
-  options: "warning",
+  options: "warn",
 
   tests: {
     valid: [{
