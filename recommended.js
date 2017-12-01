@@ -24,7 +24,6 @@ module.exports = {
     rules[rule.name] = rule.options
     return rules
   }, {})
-  //   "no-extra-bind": "warning", // Don't bind if the function isn't using `this`
   //   "no-implicit-globals": "warning", // Don't put stuff in globals
   //   "no-invalid-this": "warning", // Don't use this if you're not in code being ran from a class-like object
   //   "no-labels": "error", // Don't use labels.
