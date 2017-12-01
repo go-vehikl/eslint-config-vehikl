@@ -9,22 +9,24 @@ module.exports = {
   tests: {
     valid: [{
       code: `
-function test(foo) {
-  if (foo === true) {
-    return "yes"
-  }
-  return "no"
-}`,
+        function test(foo) {
+          if (foo === true) {
+            return "yes"
+          }
+          return "no"
+        }
+      `,
     }],
 
     invalid: [{
       code: `
-function test(foo) {
-  if (foo === true) {
-    return "yes"
-  }
-  return
-}`,
+        function test(foo) {
+          if (foo === true) {
+            return "yes"
+          }
+          return
+        }
+      `,
       errors: 1
     }],
   },

@@ -13,17 +13,17 @@ module.exports = {
 
     invalid: [{
       code: `
-function test() {
-  console.log(arguments.caller)
-}
-`,
+        function test() {
+          console.log(arguments.caller)
+        }
+      `,
       errors: 1
     }, {
       code: `
-function test() {
-  console.log(arguments.callee)
-}
-`,
+        function test() {
+          console.log(arguments.callee)
+        }
+      `,
       errors: 1
     }],
   },
