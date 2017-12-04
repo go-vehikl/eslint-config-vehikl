@@ -44,7 +44,7 @@ function summarizeTests(results) {
 
 const tester = new RuleTester({
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 2017,
     sourceType: "module"
   },
   env: {
