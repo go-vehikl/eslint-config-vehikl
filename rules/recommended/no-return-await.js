@@ -20,7 +20,7 @@ module.exports = {
         // This is okay because we're not just doing a single await
         async function test() {
           const a = await otherAsyncFn()
-          return await andAnotherAsyncFn(a)
+          return andAnotherAsyncFn(a)
         }
       `
     }],
